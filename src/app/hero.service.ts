@@ -11,5 +11,5 @@ export class HeroService {
     const heroes =of (HEROES);
     return heroes;
   }
-  constructor(private messageService: MessageService) { }
+  constructor(private messageService: MessageService  ) { }
 }
